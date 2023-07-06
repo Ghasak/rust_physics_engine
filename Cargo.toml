@@ -1,0 +1,19 @@
+[package]
+name = "rust_physics_engine"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.sdl2]
+sdl2 = "0.35"
+default-features = false
+features = ["ttf","image","mixer", "gfx"]
+
+[dependencies]
+rand = "0.8.5"
+colored = "2.0.4"
+nalgebra = '0.32.2'
+ndarray = {version = "0.15.6", features = ["rayon"]}
+
+
