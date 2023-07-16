@@ -1,6 +1,8 @@
 # rust_physics_engine
 
 ## ChangeLog
+- `2023-07-16 22:06`:
+    - Fetch the `vectorlib` to our main project and ready to utilize version `vectorlib@0.1.2`
 
 # Introduction
 The `SDL2` library is natively written in `C` that came bare-bone. We will
