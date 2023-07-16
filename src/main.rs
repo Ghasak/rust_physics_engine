@@ -4,7 +4,8 @@ use sdl2::log;
 // use crate::math::vector2d_module::Vector2d;
 //use crate::math::vector2d_struct::GVector2d;
 // use std::f32::consts::FRAC_PI_2;
-pub mod math;
+// pub mod math;
+
 use vectorlib::math::vector2d_module::Vector2d;
 use vectorlib::math::vector2d_verbose_module::VerboseVector2d;
 
@@ -27,7 +28,11 @@ fn main() {
     let u = Vector2d::new(10.0, 20.0);
     let r = k.dot_product(u);
     println!("{r}");
-    let _o = VerboseVector2d::new(u, true);
+    let _o1 = VerboseVector2d::new(v, true);
+    let _o2 = VerboseVector2d::new(w, true);
+    {
+        let _o3 = VerboseVector2d::new(u, true);
+    }
 
     // //Ok(())
 }

@@ -16,7 +16,8 @@ colored = "2.0.4"
 nalgebra = '0.32.2'
 ndarray = {version = "0.15.6", features = ["rayon"]}
 num-traits = "0.2"
-vectorlib = {path = "../vectorlib"}
+#vectorlib = {path = "../vectorlib"}
+vectorlib = "0.1.2"
 
 [dev-dependencies]
 assert_approx_eq = "1.1.0"

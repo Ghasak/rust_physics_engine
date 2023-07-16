@@ -493,7 +493,9 @@ checksum = "22049a19f4a68748a168c0fc439f9516686aa045927ff767eca0a85101fb6e73"
 
 [[package]]
 name = "vectorlib"
-version = "0.1.0"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cc0f27ccd0259856dbafc44c08931b7543b01ad070b99c90fe171aca622e6f3f"
 dependencies = [
  "colored",
  "log",
